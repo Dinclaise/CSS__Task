@@ -1,1 +1,47 @@
+body { background: #FFF; width: 232px; height: 400px; }
+
+
+
+/* Inner block ol - внутренний блок ol */
+
+ol { background-color: #ffff00; width: 40px;}
+
+ol li:nth-child(odd) { background-color: #acd8e3 }
+
+ol li:nth-child(even) { background-color: #0100fb }
+
+ol li a:last-child { color: #e0eeef }
+
+ol li a { color: #a19b85 }
+
+
+
+/* Outer blocks li - Внешние блоки li*/
+
+/* Common colors - общие цвета */
+
+ul { background-color: #fe0000; width: 160px}
+
+ul ul { background-color: #ffff00; width: 120px}
+
+ul ul ul { background-color: #fe0000; width: 80px}
+
+
+
+/* Paint blocks and numbers - покраска блоков и цифр*/
+
+ul li { width: 28.5px; background-color: #008001;  text-align: center;  }
+
+ul li a { color: #ffdcff }
+
+ul li:last-child a { color: #001e00 }
+
+ul ul li {  background-color: #7f0087; }
+
+ul ul li a { color: #dbedf9 }
+
+ul ul li:last-child a { color: #ffd7ad }
+
+ul ul ul li {  background-color: #020100; }
+
 
